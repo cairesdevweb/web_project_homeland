@@ -1,1 +1,11 @@
 @import url(../vendor/normalize.css);
+
+@import url(../vendor/inter/inter.css);
+
+@import url(../blocks/pages.css);
+
+@import url(../blocks/vector.css);
+
+@import url(../blocks/lead.css);
+
+@import url(../blocks/intro.css);
