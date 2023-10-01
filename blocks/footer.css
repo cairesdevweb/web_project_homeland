@@ -1,0 +1,11 @@
+.footer {
+    margin-top: 92px;
+    padding-bottom: 24px;
+}
+
+.text__footer {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.14px;
+    text-align: center;
+}

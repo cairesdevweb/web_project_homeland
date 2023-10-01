@@ -1,0 +1,38 @@
+.overlay {
+    margin: 92px auto 0;
+    height: 740px;
+    width: 1184px;
+    background-image: url(../images/image-cover.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(42, 44, 47, 0.3);
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.overlay:hover {
+    background-color: rgba(42, 44, 47, 0.8);
+}
+
+.overlay__title {
+    font-size: 72px;
+    line-height: 1.06;
+    font-weight: bold;
+}
+
+.overlay__subtitle {
+    margin: 32px 0;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: normal;
+    width: 280px;
+    height: 66px;
+}
+.text-breakline::before {
+    content: "\a";
+    white-space: pre-line;
+}
