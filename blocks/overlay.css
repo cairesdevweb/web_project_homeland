@@ -56,14 +56,16 @@
   .overlay {
     margin-top: 64px;
     height: 254px;
-    width: 321px;
+    width: 550px;
   }
   .overlay__title {
     font-size: 32px;
     line-height: 1.08;
   }
   .overlay__text {
-    margin: 16px 0;
+    width: 280px;
+    height: 48px;
+    margin: 16px 20px 0;
     font-size: 14px;
     line-height: 1.25;
   }
