@@ -18,13 +18,13 @@
   background-color: rgba(42, 44, 47, 0.8);
 }
 
-.cover__title {
+.overlay__title {
   font-size: 72px;
   line-height: 1.06;
   font-weight: bold;
 }
 
-.cover__text {
+.overlay__text {
   margin: 32px 0;
   font-size: 18px;
   line-height: 1.2;
@@ -58,11 +58,11 @@
     height: 254px;
     width: 321px;
   }
-  .cover__title {
+  .overlay__title {
     font-size: 32px;
     line-height: 1.08;
   }
-  .cover__text {
+  .overlay__text {
     margin: 16px 0;
     font-size: 14px;
     line-height: 1.25;
