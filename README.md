@@ -1,1 +1,16 @@
 # Tripleten web_project_homeland
+Primeiro projeto feito com responsibilidade para Desktop, Tablets e Mobile.
+
+Um projeto, como o intuito de mostrar algumas cidades de alguns profissionais que trabalham na Tripleten, curso onde estou realizando meus estudos de Desenvolvedor Web.
+
+Trabalhamos na realização desde projeto: 
+
+.Metodologia BEM
+.HTML
+.CSS (flexbox, grid, button)
+
+Projetado por: 
+
+Matheus Caires das Virgens
+
+https://www.instagram.com/caaires.m/
