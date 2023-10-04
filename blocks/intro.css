@@ -1,52 +1,54 @@
-.intro {
-    width: 828px;
-    height: 516px;
-    margin-left: 148px;
-    margin-right: 304px;
-    margin-top: 92px;
+.introduction {
+  margin: 0 auto;
+  max-width: 1017px;
+  width: 95%;
+}
+.introduction__title {
+  margin-top: 92px;
+  font-size: 54px;
+  font-weight: bold;
+  line-height: 1.04;
+}
+.introduction__text {
+  margin-top: 32px;
+  max-width: 720px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.quote_cite {
+  margin-top: 0;
+  text-align: right;
+}
+.intro__cite {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.125rem;
+  max-width: 45rem;
+}
+@media screen and (max-width: 1024px) {
+  .introduction {
+    width: 93.6%;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+  .introduction__title {
+    margin-top: 88px;
+  }
 }
 
-.title__intro {
-    width: 828px;
-    height: 116px;
-    color: #fff;
-    font-family: "Inter";
-    font-size: 54px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 58px;
-}
-
-.subtitle__intro {
-    width: 736px;
-    height: 68px;
-    font-family: "Inter";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 34px;
-    margin-top: 75px;
-    margin-right: 92px;
-}
-
-.author__subtitle {
-    width: 720px;
-    height: 34px;
-    text-align: right;
-    font-family: "Inter";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 34px;
-}
-
-.text__intro {
-    width: 720px;
-    height: 182px;
-    font-family: "Inter";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 163%;
-    margin-right: 412px;
+@media screen and (max-width: 656px) {
+  .introduction {
+    width: 90%;
+  }
+  .introduction__title {
+    margin-top: 44px;
+    font-size: 32px;
+    line-height: 1.09;
+  }
+  .introduction__text {
+    margin-top: 18px;
+  }
 }

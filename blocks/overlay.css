@@ -1,38 +1,70 @@
 .overlay {
-    margin: 92px auto 0;
-    height: 740px;
-    width: 1184px;
-    background-image: url(../images/image-cover.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: rgba(42, 44, 47, 0.3);
-    background-blend-mode: darken;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  margin: 92px auto 0;
+  height: 740px;
+  width: 1184px;
+  background-image: url(../images/image-cover.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(42, 44, 47, 0.3);
+  background-blend-mode: darken;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .overlay:hover {
-    background-color: rgba(42, 44, 47, 0.8);
+  background-color: rgba(42, 44, 47, 0.8);
 }
 
-.overlay__title {
-    font-size: 72px;
-    line-height: 1.06;
-    font-weight: bold;
+.cover__title {
+  font-size: 72px;
+  line-height: 1.06;
+  font-weight: bold;
 }
 
-.overlay__subtitle {
-    margin: 32px 0;
-    font-size: 18px;
-    line-height: 1.2;
-    font-weight: normal;
-    width: 280px;
-    height: 66px;
+.cover__text {
+  margin: 32px 0;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
 }
+
 .text-breakline::before {
-    content: "\a";
-    white-space: pre-line;
+  content: "\a";
+  white-space: pre-line;
+}
+
+.cover__button {
+  margin: 2rem 0 0 0;
+  width: 11.9375rem;
+  z-index: 999;
+}
+
+@media screen and (max-width: 1024px) {
+  .overlay {
+    width: 768px;
+    height: 746px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 656px) {
+  .overlay {
+    margin-top: 64px;
+    height: 254px;
+    width: 321px;
+  }
+  .cover__title {
+    font-size: 32px;
+    line-height: 1.08;
+  }
+  .cover__text {
+    margin: 16px 0;
+    font-size: 14px;
+    line-height: 1.25;
+  }
 }
