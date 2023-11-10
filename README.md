@@ -1,5 +1,5 @@
 # Tripleten web_project_homeland
-Primeiro projeto feito com responsibilidade para Desktop, Tablets e Mobile.
+Primeiro projeto feito com responsividade para Desktop, Tablets e Mobile.
 
 Um projeto, como o intuito de mostrar algumas cidades de alguns profissionais que trabalham na Tripleten, curso onde estou realizando meus estudos de Desenvolvedor Web.
 
